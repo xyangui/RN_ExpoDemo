@@ -2,10 +2,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
-import LoginScreen1 from './src/login/screen1';
-import LoginScreen2 from './src/login/screen2';
-import LoginScreen3 from './src/login/screen3';
-import LoginScreen4 from './src/login/screen4';
+import LoginScreen1 from './src/T001_Login/screen1';
+import LoginScreen2 from './src/T001_Login/screen2';
+import LoginScreen3 from './src/T001_Login/screen3';
+import LoginScreen4 from './src/T001_Login/screen4';
 
 export default class App extends React.Component {
   render() {
