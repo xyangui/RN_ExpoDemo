@@ -18,7 +18,7 @@ export default class Profile extends React.Component {
               {/*pagingEnabled*/}
               {/*decelerationRate={0.993}*/}
           {/*>*/}
-            {/*<Profile1 />*/}
+            <Profile1 />
             {/*<Profile2 />*/}
             <Profile3 />
             {/*<Profile4 />*/}

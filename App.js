@@ -6,7 +6,7 @@ import Login from './src/T001_Login/index';
 
 import Profile from './src/T002_Profile/index';
 
-import Index from './src/T000_Test/index';
+import MyProfile from './src/T003_MyProfile/index';
 
 export default class App extends React.Component {
   render() {
@@ -16,7 +16,9 @@ export default class App extends React.Component {
 
         {/*<Login />*/}
 
-        <Index />
+        {/*<Profile />*/}
+
+        <MyProfile />
 
       </View>
     );
