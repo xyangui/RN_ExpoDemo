@@ -1,29 +1,16 @@
 
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-import LoginScreen1 from './src/login/screen1';
-import LoginScreen2 from './src/login/screen2';
-import LoginScreen3 from './src/login/screen3';
-import LoginScreen4 from './src/login/screen4';
+import Login from './src/T001_Login/index';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        {/*<Text>Ope22n up Ap99p.js to start working on your app!</Text>*/}
+        {/*<Text>Open up App.js to start working on your app!</Text>*/}
 
-        <ScrollView
-            horizontal
-            pagingEnabled
-            decelerationRate={0.993}
-        >
-          <LoginScreen3 />
-          <LoginScreen1 />
-          <LoginScreen2 />
-          <LoginScreen4 />
-
-        </ScrollView>
+        <Login />
 
       </View>
     );
@@ -33,16 +20,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black'
-  }
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
 });
-
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
