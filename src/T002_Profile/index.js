@@ -1,4 +1,8 @@
-
+/**
+ * 原工程地址
+ * https://github.com/nattatorn-dev/react-native-user-profile
+ * https://expo.io/@nattatorn-dev/expo-react-native-user-profile
+ */
 import React from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 
