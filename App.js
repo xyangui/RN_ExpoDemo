@@ -8,6 +8,8 @@ import Profile from './src/T002_Profile/index';
 
 import MyProfile from './src/T003_MyProfile/index';
 
+import Details from "./src/T004_Details";
+
 export default class App extends React.Component {
   render() {
     return (
@@ -18,7 +20,9 @@ export default class App extends React.Component {
 
         {/*<Profile />*/}
 
-        <MyProfile />
+        {/*<MyProfile />*/}
+
+        <Details />
 
       </View>
     );
